@@ -1,5 +1,5 @@
-let button = document.getElementById("increaseButton");
-let number = document.getElementById("number");
+const button = document.getElementById("increaseButton");
+const number = document.getElementById("number");
 let count = 0;
 
 button.addEventListener("click", increaseNumber)
