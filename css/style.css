@@ -1,8 +1,20 @@
 body{
 	color: black;
-	background-color: #ee6391;
+	background-color: #375b91;
 	display: grid;
 	margin: 3em;
+	margin-left: 10%;
+	margin-right: 10%;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
+	line-height: 1.6;
+}
+header{
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 1.5em;
+	background-color: #eae4e1;
+}
+.countButton{
+	margin: 1em;
 }
