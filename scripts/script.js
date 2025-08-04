@@ -1,10 +1,17 @@
-const button = document.getElementById("increaseButton");
+const incrementButton = document.getElementById("increaseButton");
+const saveButton = document.getElementById("saveButton")
 const number = document.getElementById("number");
 let count = 0;
 
-button.addEventListener("click", increaseNumber)
+incrementButton.addEventListener("click", increaseNumber)
+saveButton.addEventListener("click", save)
 
-function increaseNumber(){
+
+function increaseNumber() {
     count++;
     number.textContent = count;
+}
+
+function save() {
+    console.log(count)
 }
