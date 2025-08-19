@@ -1,8 +1,7 @@
 
-
-function add(a: number, b: number): number {
-  return a + b;
+function handler(): Response {
+  return new Response("It's happening!");
 }
 
-console.log("Add 2 + 3 =", add(2, 3));
+Deno.serve(handler);
 
