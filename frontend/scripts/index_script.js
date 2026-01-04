@@ -6,16 +6,6 @@ let count = 0;
 
 incrementButton.addEventListener("click", increaseNumber);
 saveButton.addEventListener("click", save);
-fetchButton.addEventListener("click", testFetch);
-
-function testFetch(){
-    console.log("fetch");
-    fetch("http://localhost:4000", 
-        {method: "GET"})
-        .then(res => res.text())
-        .then(data => console.log(data));
-};
-
 
 function increaseNumber() {
     count++;
